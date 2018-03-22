@@ -16,6 +16,15 @@ def uniqueness_overview(df, columns=None):
         s="col. {0:"+max_column_width+"}: {1:6} uniques values ({2:2.2f}%)"
         print(s.format(column, uniques, (uniques / len(df[column])) * 100, ))
         
+def corr_sub_plot(ax, df, title=""):
+    corr = df.corr()
+    avg_corr = corr.values[np.triu_indices_from(corr.values,1)].mean()
+    ax.set_title(title+" ({0:.4})".format(avg_corr))
+    labels=range(1,len(corr.columns),4)
+    ax.set_yticks(labels)
+    ax.set_yticklabels(labels)
+    return ax.imshow(corr, interpolation="nearest", cmap=colmap, vmin=-1, vmax=1)
+        
 ### Feature engineering
 
 # This is not optimal for large datasets
