@@ -3,7 +3,7 @@
 This is a compilation of [Jupyter](jupyter.org) notebooks, where I'll be playing with machine learning, data visualization and data exploration.
 
 You can also find on this repository:
-- My [snippets](snippets.py).
+- My [snippets](snippets.md).
 - The GoolgleCloud [installation notes](installation.md) for a quick installation of Jupyter+Keras+Tensorflow+... on a GoogleCloud virtual machine.
 
 
