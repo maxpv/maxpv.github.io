@@ -1,5 +1,3 @@
-Snippets I've found usefull.
-
 ### EDA
 
 ```python
@@ -23,6 +21,7 @@ def uniqueness_overview(df, columns=None):
 
 ```python
 def corr_sub_plot(ax, df, title=""):
+    "Add
     corr = df.corr()
     avg_corr = corr.values[np.triu_indices_from(corr.values,1)].mean()
     ax.set_title(title+" ({0:.4})".format(avg_corr))
@@ -31,6 +30,16 @@ def corr_sub_plot(ax, df, title=""):
     ax.set_yticklabels(labels)
     return ax.imshow(corr, interpolation="nearest", cmap=colmap, vmin=-1, vmax=1)
 ```
+
+Usage:
+
+`̀``python
+corr_sub_plot(ax[0,0], train.iloc[features_array], title="First subplot")
+corr_sub_plot(ax[0,1], train.iloc[features_array2], "Second subplot")
+cax = corr_sub_plot(ax[1,0], train.iloc[features_array3], "Third subplot")
+
+f.colorbar(cax, ax=ax.ravel().tolist()) #to normalize colorization of the charts
+̀```
 
 ### Feature engineering
 
