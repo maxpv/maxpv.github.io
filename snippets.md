@@ -1,5 +1,8 @@
+Snippets I've found usefull.
+
 ### EDA
 
+```python
 def uniqueness_overview(df, columns=None):
     """Print number of unique and proportion of unique 
        values per column of a pd.DataFrame.
@@ -15,7 +18,10 @@ def uniqueness_overview(df, columns=None):
         uniques = len(df[column].value_counts())
         s="col. {0:"+max_column_width+"}: {1:6} uniques values ({2:2.2f}%)"
         print(s.format(column, uniques, (uniques / len(df[column])) * 100, ))
-        
+```
+
+
+```python
 def corr_sub_plot(ax, df, title=""):
     corr = df.corr()
     avg_corr = corr.values[np.triu_indices_from(corr.values,1)].mean()
@@ -24,9 +30,11 @@ def corr_sub_plot(ax, df, title=""):
     ax.set_yticks(labels)
     ax.set_yticklabels(labels)
     return ax.imshow(corr, interpolation="nearest", cmap=colmap, vmin=-1, vmax=1)
-        
+```
+
 ### Feature engineering
 
+```python
 # This is not optimal for large datasets
 from sklearn.base import BaseEstimator, TransformerMixin
 class CyclicClockTransformer(BaseEstimator, TransformerMixin):
@@ -38,3 +46,4 @@ class CyclicClockTransformer(BaseEstimator, TransformerMixin):
         sec_cos = np.sin(2*np.pi*seconds/24*60*60)
         sec_sin = np.cos(2*np.pi*seconds/24*60*60)
         return [sec_cos, sec_sin]
+```
