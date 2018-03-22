@@ -30,17 +30,17 @@ def corr_sub_plot(ax, df, title=""):
     ax.set_yticks(labels)
     ax.set_yticklabels(labels)
     return ax.imshow(corr, interpolation="nearest", cmap=colmap, vmin=-1, vmax=1)
-```
 
-Usage:
-
-```python
+# Usage
 corr_sub_plot(ax[0,0], train.iloc[features_array], title="First subplot")
 corr_sub_plot(ax[0,1], train.iloc[features_array2], "Second subplot")
 cax = corr_sub_plot(ax[1,0], train.iloc[features_array3], "Third subplot")
 
-f.colorbar(cax, ax=ax.ravel().tolist()) #to normalize colorization of the charts
+# To normalize plots' colors 
+f.colorbar(cax, ax=ax.ravel().tolist()) 
 ```
+
+-----
 
 ### Feature engineering
 
@@ -57,3 +57,5 @@ class CyclicClockTransformer(BaseEstimator, TransformerMixin):
         sec_sin = np.cos(2*np.pi*seconds/24*60*60)
         return [sec_cos, sec_sin]
 ```
+
+-----
