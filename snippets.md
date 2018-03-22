@@ -18,6 +18,7 @@ def uniqueness_overview(df, columns=None):
         print(s.format(column, uniques, (uniques / len(df[column])) * 100, ))
 ```
 
+----
 
 ```python
 def corr_sub_plot(ax, df, title=""):
@@ -33,13 +34,13 @@ def corr_sub_plot(ax, df, title=""):
 
 Usage:
 
-`̀``python
+```python
 corr_sub_plot(ax[0,0], train.iloc[features_array], title="First subplot")
 corr_sub_plot(ax[0,1], train.iloc[features_array2], "Second subplot")
 cax = corr_sub_plot(ax[1,0], train.iloc[features_array3], "Third subplot")
 
 f.colorbar(cax, ax=ax.ravel().tolist()) #to normalize colorization of the charts
-̀```
+```
 
 ### Feature engineering
 
