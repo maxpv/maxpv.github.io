@@ -1,4 +1,4 @@
-### EDA
+## EDA
 
 ```python
 def uniqueness_overview(df, columns=None):
@@ -42,7 +42,7 @@ f.colorbar(cax, ax=ax.ravel().tolist())
 
 -----
 
-### Feature engineering
+## Feature engineering
 
 ```python
 # This is not optimal for large datasets
