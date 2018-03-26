@@ -30,8 +30,10 @@ def corr_sub_plot(ax, df, title=""):
     if len(corr.columns) > 15:
         labels=range(1,len(corr.columns),4)
 
-    ax.set_yticklabels(labels)
-    ax.set_yticklabels(labels)
+    ax.set_xticks(np.arange(len(df.columns)))
+    ax.set_yticks(np.arange(len(df.columns)))
+    ax.set_yticklabels(df.columns)
+    ax.set_xticklabels(df.columns)
     return ax.imshow(corr, interpolation="nearest", cmap=colmap, vmin=-1, vmax=1)
 
 # Usage
