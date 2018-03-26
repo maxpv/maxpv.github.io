@@ -22,12 +22,15 @@ def uniqueness_overview(df, columns=None):
 
 ```python
 def corr_sub_plot(ax, df, title=""):
-    "Add
     corr = df.corr()
     avg_corr = corr.values[np.triu_indices_from(corr.values,1)].mean()
     ax.set_title(title+" ({0:.4})".format(avg_corr))
-    labels=range(1,len(corr.columns),4)
-    ax.set_yticks(labels)
+    
+    labels = corr.columns
+    if len(corr.columns) > 15:
+        labels=range(1,len(corr.columns),4)
+
+    ax.set_yticklabels(labels)
     ax.set_yticklabels(labels)
     return ax.imshow(corr, interpolation="nearest", cmap=colmap, vmin=-1, vmax=1)
 
