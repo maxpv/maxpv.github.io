@@ -9,7 +9,7 @@ You can also find on this repository:
 
 ## Problems
 
-### Leaves [(notebook)](notebooks/leaves.ipynb)
+### Leaves [(notebook)](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/leaves.ipynb)
 Kaggle Challenge proposed in 2017, of [leaf classification](https://www.kaggle.com/c/leaf-classification/data). It's an interesting dataset because there is 16 sample for each of the 99 species with around 200 features per instance. I mainly focused on reducing the dimensionality of the dataset.
 
 ### AdTracking Fraud Detection (work in progress)
