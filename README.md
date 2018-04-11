@@ -15,5 +15,10 @@ Kaggle Challenge proposed in 2017, of [leaf classification](https://www.kaggle.c
 ### AdTracking Fraud Detection (work in progress)
 Kaggle Challenge proposed by Talking Data. The objective is to "predict whether a user will download an app after clicking a mobile app advertisement."
 
-### Parkinson Telemonitoring (work in progress)
+### Parkinson Telemonitoring ([work in progress](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/parkinson-telemonitoring.ipynb))
 [Dataset](https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring) of voice measurements from 42 people with early-stage Parkinson's disease, built by the University of Oxford in collaboration with 10 medical centers in the US and INtel Corporation.
+
+
+## Interesting papers
+
+- [Can computers create art ?](https://arxiv.org/abs/1801.04486): interesting parallel between the state of painting when photography rose. How new technologies followed the pattern: initial fear, denial, acceptance, creation of new art forms. The second part of the paper discuss authorship and wether or not AI systems can create art (?).
