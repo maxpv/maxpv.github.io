@@ -1,4 +1,4 @@
-# Data Science and Machine Learning playground
+# Data Science and Machine Learning experiments
 
 This is a compilation of [Jupyter](jupyter.org) notebooks, where we'll be playing with machine learning, data visualization and data exploration.
 
