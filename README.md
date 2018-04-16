@@ -1,18 +1,22 @@
 # Data Science and Machine Learning playground
 
-This is a compilation of [Jupyter](jupyter.org) notebooks, where I'll be playing with machine learning, data visualization and data exploration.
+This is a compilation of [Jupyter](jupyter.org) notebooks, where we'll be playing with machine learning, data visualization and data exploration.
 
 You can also find on this repository:
-- My [snippets](snippets.md).
+- [Snippets](snippets.md).
 - The GoolgleCloud [installation notes](installation.md) for a quick installation of Jupyter+Keras+Tensorflow+... on a GoogleCloud virtual machine.
 
 
-## Problems
+## Lab
+### Adversarial examples ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/Adversarial_ResNet50.ipynb))
+In this notebook we generate adversarial images and make a frog looks like a plane in the eyes of a pre-trained `ResNet50` model in Keras.
+
+## Real world problems
 
 ### Leaves ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/leaves.ipynb))
 `classification /w sklearn`
 
-Kaggle Challenge proposed in 2017, of [leaf classification](https://www.kaggle.com/c/leaf-classification/data). It's an interesting dataset because there is 16 sample for each of the 99 species with around 200 features per instance. I mainly focused on reducing the dimensionality of the dataset.
+Kaggle Challenge proposed in 2017, of [leaf classification](https://www.kaggle.com/c/leaf-classification/data). It's an interesting dataset because there is 16 sample for each of the 99 species with around 200 features per instance. We mainly focused on reducing the dimensionality of the dataset.
 
 ### AdTracking Fraud Detection (work in progress)
 `classification /w sklearn`
