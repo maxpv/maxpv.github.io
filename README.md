@@ -20,7 +20,7 @@ Kaggle Challenge submitted in 2017, of [leaf classification](https://www.kaggle.
 ###### - AdTracking Fraud Detection (work in progress) `classification /w sklearn`
 Kaggle Challenge submitted by Talking Data. The objective is to "predict whether a user will download an app after clicking a mobile app advertisement."
 
-###### - Parkinson Telemonitoring ([work in progress](https://www.kaggle.com/mountainguest/parkinson-telemonitoring-regression-with-keras)) `regression /w sklearn keras`
+###### - Parkinson Telemonitoring ([notebook](https://www.kaggle.com/mountainguest/parkinson-telemonitoring-regression-with-keras)) `multi-variate regression /w sklearn keras`
 [Dataset](https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring) of voice measurements from 42 people with early-stage Parkinson's disease, built by the University of Oxford in collaboration with 10 medical centers in the US and INtel Corporation.
 
 ----
