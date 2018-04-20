@@ -1,5 +1,5 @@
 You can find on this page:
-- Notebooks about [real world problems](https://maxpv.github.io/#real-world-problems)
+- Notebooks about [real world problems](https://maxpv.github.io/#real-world-problems).
 - [Fun](https://maxpv.github.io/#lab) with fascinating topic of ML.
 - Compilation of [papers](https://maxpv.github.io/#interesting-papers) that I found interesting.
 - Code [snippets](snippets.md).
