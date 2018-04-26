@@ -14,13 +14,17 @@ In this notebook we generate adversarial images and make a frog looks like a pla
 ----
 
 ### Real world problems
-###### - Leaves ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/leaves.ipynb)) `classification /w sklearn`
+###### - Leaves ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/leaves.ipynb)) `classification /w sklearn ensemble`
 Kaggle Challenge submitted in 2017, of [leaf classification](https://www.kaggle.com/c/leaf-classification/data). It's an interesting dataset because there is 16 sample for each of the 99 species with around 200 features per instance. We mainly focused on reducing the dimensionality of the dataset.
 
-###### - AdTracking Fraud Detection (work in progress) `classification /w sklearn`
+###### - Fashion MNIST ([in progress](https://www.kaggle.com/mountainguest/fashion-keras-mnist))`classification /w Keras`
+[Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) is a dataset crafted by Zalando, containing 70,000 gray scale images. Each image has MNIST-like dimensions: 28x28.
+> Zalando intends Fashion-MNIST to serve as a direct drop-in replacement for the original MNIST dataset for benchmarking machine learning algorithms. It shares the same image size and structure of training and testing splits.
+
+###### - AdTracking Fraud Detection (in progress) `classification /w sklearn`
 Kaggle Challenge submitted by Talking Data. The objective is to "predict whether a user will download an app after clicking a mobile app advertisement."
 
-###### - Parkinson Telemonitoring ([notebook](https://www.kaggle.com/mountainguest/parkinson-telemonitoring-regression-with-keras)) `multi-variate regression /w sklearn keras`
+###### - Parkinson Telemonitoring ([notebook](https://www.kaggle.com/mountainguest/parkinson-telemonitoring-regression-with-keras)) `multi-variate regression /w sklearn Keras`
 [Dataset](https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring) of voice measurements from 42 people with early-stage Parkinson's disease, built by the University of Oxford in collaboration with 10 medical centers in the US and INtel Corporation.
 
 ----
