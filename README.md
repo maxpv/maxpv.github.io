@@ -2,7 +2,7 @@ You can find on this page:
 - Notebooks about [real world problems](https://maxpv.github.io/#real-world-problems).
 - [Fun](https://maxpv.github.io/#lab) with fascinating topic of ML.
 - Compilation of [papers](https://maxpv.github.io/#interesting-papers) that I found interesting.
-- Code [snippets](snippets.md).
+- Code [snippets](snippets.md) (see also [gist](https://gist.github.com/maxpv)).
 - The GoolgleCloud [installation notes](installation.md) for a quick installation of Jupyter+Keras+Tensorflow+... on a GoogleCloud virtual machine.
 
 ---- 
