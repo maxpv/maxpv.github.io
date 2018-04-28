@@ -22,7 +22,7 @@ Kaggle Challenge submitted in 2017, of [leaf classification](https://www.kaggle.
 
 ----
 
-Fashion MNIST | [notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/Fashion_MNIST.ipynb) | `classification` `CNN` `Keras`
+Fashion MNIST | [notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/Fashion_MNIST.ipynb) | `classification` `CNN` `Keras`|
 |--:|--:|--:|
 
 [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) is a dataset crafted by Zalando, containing 70,000 gray scale images. Each image has MNIST-like dimensions: 28x28.
@@ -30,14 +30,14 @@ Fashion MNIST | [notebook](https://github.com/maxpv/maxpv.github.io/blob/master/
 
 ----
 
-AdTracking Fraud Detection | (in progress) | `classification` `sklearn`
+AdTracking Fraud Detection | (in progress) | `classification` `sklearn`|
 |--:|--:|--:|
 
 Kaggle Challenge submitted by Talking Data. The objective is to "predict whether a user will download an app after clicking a mobile app advertisement."
 
 ----
 
-Parkinson Telemonitoring | [notebook](https://www.kaggle.com/mountainguest/parkinson-telemonitoring-regression-with-keras) |  `multi-variate regression` `sklearn` `Keras`
+Parkinson Telemonitoring | [notebook](https://www.kaggle.com/mountainguest/parkinson-telemonitoring-regression-with-keras) |  `multi-variate regression` `sklearn` `Keras`|
 |--:|--:|--:|
 
 [Dataset](https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring) of voice measurements from 42 people with early-stage Parkinson's disease, built by the University of Oxford in collaboration with 10 medical centers in the US and INtel Corporation.
