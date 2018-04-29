@@ -17,6 +17,9 @@ In this notebook we generate adversarial images and make a frog looks like a pla
 
 Kaggle Challenge submitted in 2017, of [leaf classification](https://www.kaggle.com/c/leaf-classification/data). It's an interesting dataset because there is 16 sample for each of the 99 species with around 200 features per instance. We mainly focused on reducing the dimensionality of the dataset.
 
+#### Binary Sentiment Analysis ([work in progress](https://colab.research.google.com/drive/18lMVt6QbOvcIYPYejRBMkZcdHkk9xPfP#scrollTo=NUWUz7FHBk2w))
+This [dataset](https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences) contains sentences labelled as positive or negative. Sentences comes directly from IMDB, Amazon and yelp.
+
 #### Fashion MNIST ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/Fashion_MNIST.ipynb) )
 `classification` `CNN` `Keras`
 
