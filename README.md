@@ -2,19 +2,16 @@ You can find on this page:
 - Notebooks about [real world problems](https://maxpv.github.io/#real-world-problems).
 - [Fun](https://maxpv.github.io/#lab) with fascinating topic of ML.
 - Compilation of [papers](https://maxpv.github.io/#interesting-papers) that I found interesting.
+
+And also:
 - Code [snippets](snippets.md) (see also [gist](https://gist.github.com/maxpv)).
 - The GoolgleCloud [installation notes](installation.md) for a quick installation of Jupyter+Keras+Tensorflow+... on a GoogleCloud virtual machine.
 
----- 
-
-### Lab
+## Lab
 #### Adversarial examples ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/Adversarial_ResNet50.ipynb))
 In this notebook we generate adversarial images and make a frog looks like a plane in the eyes of a pre-trained `ResNet50` model in Keras.
 
-----
-
-### Problems
-
+## Problems
 #### Leaves ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/leaves.ipynb))
 `classification` `sklearn` `ensemble` 
 
@@ -37,9 +34,7 @@ Kaggle Challenge submitted by Talking Data. The objective is to "predict whether
 
 [Dataset](https://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring) of voice measurements from 42 people with early-stage Parkinson's disease, built by the University of Oxford in collaboration with 10 medical centers in the US and INtel Corporation.
 
-----
-
-### Interesting papers
+## Interesting papers
 
 ###### - [Practical Black-Box Attacks against Machine Learning](https://arxiv.org/abs/1602.02697) (Papernot and al.)
 This paper introduces a technique that enables control over a remote deep neural network. No prior knowledge is required excepted the output label for a given input. The main idea here is to create a local substitute neural network trained with a substitute crafted by the adversary. And  use this substitute DNN to craft adversarial examples with (classic) gradient based techniques. They don't design a substitue DNN with a perfect accuracy but rather "approximate the oracle's decision boundaries with few label queries". A small local and unlabelled dataset is created by the adversary. The dataset is labelled by the oracle and augmented locally by a technique named *Jacobian-based Dataset Augmentation*.
