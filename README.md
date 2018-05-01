@@ -20,7 +20,7 @@ Kaggle Challenge submitted in 2017, of [leaf classification](https://www.kaggle.
 #### Binary Sentiment Analysis ([work in progress](https://colab.research.google.com/drive/18lMVt6QbOvcIYPYejRBMkZcdHkk9xPfP#scrollTo=NUWUz7FHBk2w))
 `nlp` `keras` 
 
-This [dataset](https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences) contains sentences labelled as positive or negative. Sentences comes directly from IMDB, Amazon and yelp.
+This [dataset](https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences) contains sentences labelled as positive or negative. Sentences comes directly from IMDB, Amazon and yelp. We here experiment with bayesian optimisation processes on top of Keras.
 
 #### Fashion MNIST ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/Fashion_MNIST.ipynb) )
 `classification` `CNN` `Keras`
