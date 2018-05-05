@@ -5,7 +5,7 @@ You can find on this page:
 
 And also:
 - Code [snippets](snippets.md) (see also [gist](https://gist.github.com/maxpv)).
-- The GoolgleCloud [installation notes](installation.md) for a quick installation of Jupyter+Keras+Tensorflow+... on a GoogleCloud virtual machine.
+- The GoogleCloud [installation notes](installation.md) for a quick installation of Jupyter+Keras+Tensorflow+... on a GoogleCloud virtual machine.
 
 ## Lab
 #### Adversarial examples ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/Adversarial_ResNet50.ipynb))
