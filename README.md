@@ -11,10 +11,6 @@ And also:
 #### Adversarial examples ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/Adversarial_ResNet50.ipynb))
 In this notebook we generate adversarial images and make a frog looks like a plane in the eyes of a pre-trained `ResNet50` model in Keras.
 
-#### Image colorization (in progress)
-In this notebook we colorize gray-scale images using convolutional autoencoders.
-
-
 ## Problems
 #### Leaves ([notebook](https://github.com/maxpv/maxpv.github.io/blob/master/notebooks/leaves.ipynb))
 `classification` `sklearn` `ensemble` 
